@@ -19,5 +19,5 @@ while True :
     balanse = (balanse - s)
     print(balanse)
     if balanse <= 0 :
-     print ("GAMEOWER")
+     print ("Игра окончена ваш баланс равен 0")
      break
