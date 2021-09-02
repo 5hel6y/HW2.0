@@ -6,8 +6,11 @@ print("Ваш стартовый дипозит 10000 рублей \nПрави�
 while True :
   number = ("Загадывай число")
   print(number)
-  number = int(input())
-  randomnumb = random.randint(2, 13)
+  try :
+   number = int(input())
+  except :
+   continue
+  randomnumb = random.randint(2, 12)
   print("Вы загадали цифру", number)
   print("Число которое выпало у крупье равно", randomnumb)
   if randomnumb == int(number):
@@ -18,6 +21,6 @@ while True :
     print("Вы не угадали число, ставка сгорела\nПопробуйте снова! я уверен Вам повезет\nВаш баланс сейчас")
     balanse = (balanse - s)
     print(balanse)
-    if balanse <= 0 :
+    if  balanse<= 0 :
      print ("Игра окончена ваш баланс равен 0")
      break
