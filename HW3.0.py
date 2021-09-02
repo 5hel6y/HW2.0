@@ -1,1 +1,1 @@
-
+print ('Gggg')
