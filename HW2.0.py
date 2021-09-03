@@ -10,7 +10,8 @@ while True:
     print(number)
     try:
       number = int(input())
-      if 2 < number > 12 :
+      if number < 2 or number > 12 :
+        print ("Введите число от 2 до 12")
         continue
     except:
         continue
