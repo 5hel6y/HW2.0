@@ -34,4 +34,5 @@ while True:
         if balanse <= 0:
             print("Игра окончена ваш баланс равен 0")
             break
-
+for journal in j :
+    print (journal)
