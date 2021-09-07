@@ -1,1 +1,10 @@
-string_1 = ("Съешь еще этих мягких французких булок ДА выпей же чаю")
+string_1 = "Съешь еще этих мягких французких булок ДА выпей же чаю"
+string_1 = string_1.split(" ")
+string_1_up = (string_1[3])
+string_1_lo = (string_1[6])
+string_1_1 = (string_1[7][2])
+s1u = string_1_up.upper()
+s1l = string_1_lo.lower()
+print(s1u)
+print(s1l)
+print(string_1_1)
